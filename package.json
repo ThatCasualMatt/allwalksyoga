@@ -1,10 +1,10 @@
 {
-  "name": "fuck-websites",
+  "name": "allwalksyoga",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts" : {
-    "start" : "eleventy --serve"
+  "scripts": {
+    "start": "eleventy --serve"
   },
   "keywords": [],
   "author": "",
