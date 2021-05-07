@@ -1,0 +1,122 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    {% include "partials/meta-info.html" %}
+    <link rel="shortcut icon" type="image/png" href="images/Favicon.png?{{ assetHash }}">
+    <link rel="stylesheet" href="css/bootstrap.min.css?{{ assetHash }}" />
+    <link rel="stylesheet" href="css/all.min.css?{{ assetHash }}" />
+    <link type="text/css" rel="stylesheet" href="font/flaticon.css?{{ assetHash }}" />
+    <link rel="stylesheet" href="css/slick.css?{{ assetHash }}" />
+    <link href="css/jquery.fancybox.min.css?{{ assetHash }}" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css?{{ assetHash }}" />
+    <link rel="stylesheet" href="css/responsive.css?{{ assetHash }}" />
+  </head>
+
+  <body class="body-back" data-spy="scroll" data-target="#bs-example-navbar-collapse-1"></body>
+  
+    <!-- back to top start -->
+    <a href="#" id="back-top-btn"><i class="fas fa-arrow-circle-up"></i></a> 
+    <!-- back to top end -->
+    
+    {% include "partials/navigation.html" %}
+
+    <!--=========================
+        Banner Part HTML Start
+        =======================-->
+    <section id="banner" class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 banner-l">
+            <div class="banner-text">
+              <h3>Welcome To OmYoga</h3>
+              <h1 class="heading-font">Change Your Life By Meditation</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, se do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+              <div class="banner-btn">
+                <a href="#">Join Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 banner-yoga d-md-block d-none">
+            <div class="banner-block">
+              <img
+                src="images/banner-shape.png" class="img-fluid" alt="banner"/>
+              <div class="animation-circle-inverse left">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================
+        Banner Part HTML End
+    ======================-->
+
+   <main tabindex="-1" id="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+    <!--=======================
+    contact Part HTML End
+    ========================-->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="footer-text">
+              <p>© Copyright 2020. All rights reserved by Designer</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="footer-menu">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--===========================
+        Footer Part HTML End
+    ============================-->
+    <!-- jQuery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/waypoints.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
