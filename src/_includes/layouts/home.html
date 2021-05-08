@@ -32,15 +32,13 @@
         <div class="row">
           <div class="col-md-6 banner-l">
             <div class="banner-text">
-              <h3>Welcome To OmYoga</h3>
-              <h1 class="heading-font">Change Your Life By Meditation</h1>
+              <h3>{{ intro.header }}</h3>
+              <h1 class="heading-font">{{ intro.subheader }}</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, se do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                {{ intro.cta }}
               </p>
               <div class="banner-btn">
-                <a href="#">Join Us</a>
+                <a href="{{ intro.buttonUrl }}">{{ intro.buttonText }}</a>
               </div>
             </div>
           </div>
@@ -76,7 +74,7 @@
         <div class="row">
           <div class="col-md-6 col-12">
             <div class="footer-text">
-              <p>© Copyright 2020. All rights reserved by Designer</p>
+              <p>© Copyright {{ global.currentYear() }}. All rights reserved by All Walks Yoga, LLC.</p>
             </div>
           </div>
           <div class="col-md-6 col-12">
