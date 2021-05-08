@@ -364,14 +364,14 @@ header nav ul li a:hover {
     -moz-transition: all ease 0.7s;
     -o-transition: all ease 0.7s;
     transition: all ease 0.7s;
-    background: #74071e;
+    background: #e2b476;
 }
 
 .banner-btn a:hover {
-    box-shadow: 0px 13px 20px 0px rgba(240, 84, 86, 0.5);
-    -webkit-box-shadow: 0px 13px 20px 0px rgba(240, 84, 86, 0.5);
-    -moz-box-shadow: 0px 13px 20px 0px rgba(240, 84, 86, 0.5);
-    -o-box-shadow: 0px 13px 20px 0px rgba(240, 84, 86, 0.5);
+    box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
+    -webkit-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
+    -moz-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
+    -o-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
 }
 
 .banner-yoga {
@@ -448,7 +448,7 @@ header nav ul li a:hover {
 .about-inner:after {
     position: absolute;
     content: "";
-    border: 13px solid #ff8b94;
+    border: 13px solid #e2b476;
     width: 120px;
     height: 120px;
     border-radius: 100%;
@@ -508,9 +508,9 @@ header nav ul li a:hover {
 }
 
 .about-inner i {
-    color: #270872;
+    color: #74071e;
     border-radius: 4px;
-    background: #e1d5ff;
+    background: #e2b476;
     padding: 30px 20px 20px;
 }
 
@@ -782,7 +782,7 @@ Our Instructor Part CSS Start
     bottom: 100%;
     left: 0%;
     right: 0;
-    background: rgba(255, 69, 86, 0.6);
+    background: rgba(226, 180, 118, 0.5);
     overflow: hidden;
     width: 100%;
     height: 0%;
@@ -1264,10 +1264,10 @@ Testimonial Part CSS End
 .footer-menu li:hover i {
     color: #74071e;
     background: #fff;
-    box-shadow: 0px 13px 30px 0px rgba(240, 84, 86, 0.5);
-    -webkit-box-shadow: 0px 13px 30px 0px rgba(240, 84, 86, 0.5);
-    -moz-box-shadow: 0px 13px 30px 0px rgba(240, 84, 86, 0.5);
-    -o-box-shadow: 0px 13px 30px 0px rgba(240, 84, 86, 0.5);
+    box-shadow: 0px 13px 30px 0px rgba(116, 7, 30, 0.5);
+    -webkit-box-shadow: 0px 13px 30px 0px rgba(116, 7, 30, 0.5);
+    -moz-box-shadow: 0px 13px 30px 0px rgba(116, 7, 30, 0.5);
+    -o-box-shadow: 0px 13px 30px 0px rgba(116, 7, 30, 0.5);
     transition: all linear 0.6s;
     -webkit-transition: all linear 0.6s;
     -moz-transition: all linear 0.6s;
