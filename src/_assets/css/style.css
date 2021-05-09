@@ -119,7 +119,7 @@ body {
   position: absolute;
   content: '';
   z-index: 9;
-  top: 30px;
+  top: 20px;
 }
 
 header nav {
@@ -266,7 +266,7 @@ header nav ul li a:hover {
 }
 
 #toggle:checked + label.toggle-btn .bar {
-  background-color: red;
+  background-color: #74071e;
 }
 
 #toggle:checked + label.toggle-btn .bar:nth-child(2),
@@ -366,10 +366,17 @@ header nav ul li a:hover {
 }
 
 .banner-btn a:hover {
+  background: #ffffff;
+  color: #e2b476;
   box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
   -webkit-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
   -moz-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
   -o-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
+  transition: all linear 0.6s;
+  -webkit-transition: all linear 0.6s;
+  -moz-transition: all linear 0.6s;
+  -ms-transition: all linear 0.6s;
+  -o-transition: all linear 0.6s;
 }
 
 .banner-yoga {
@@ -1189,7 +1196,7 @@ Testimonial Part CSS End
   font-family: 'Rubik', sans-serif;
   padding: 8px 40px;
   text-transform: capitalize;
-  background: #9f0625;
+  background: #e2b476;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 25px;
@@ -1197,11 +1204,11 @@ Testimonial Part CSS End
 
 .contact-form .btn:hover {
   background: #ffffff;
-  color: #74071e;
-  box-shadow: 0px 8px 30px 0px rgba(240, 84, 86, 0.3);
-  -webkit-box-shadow: 0px 8px 30px 0px rgba(240, 84, 86, 0.3);
-  -moz-box-shadow: 0px 83px 30px 0px rgba(240, 84, 86, 0.3);
-  -o-box-shadow: 0px 8px 30px 0px rgba(240, 84, 86, 0.3);
+  color: #e2b476;
+  box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
+  -webkit-box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
+  -moz-box-shadow: 0px 83px 30px 0px rgba(226, 180, 118, 0.3);
+  -o-box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
   transition: all linear 0.6s;
   -webkit-transition: all linear 0.6s;
   -moz-transition: all linear 0.6s;
@@ -1212,7 +1219,7 @@ Testimonial Part CSS End
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #74071e;
+  border-color: #e2b476;
   outline: 0;
   transition: all linear 0.6s;
   -webkit-transition: all linear 0.6s;

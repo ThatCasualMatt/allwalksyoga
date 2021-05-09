@@ -4,8 +4,8 @@
     <header class="nav_area">
         <div class="container">
           <div class="logo_container">
-            <a href="index.html"
-              ><img src="images/logo.png" class="img-fluid" alt="logo" 
+            <a href="https://allwalks.yoga"
+              ><img src="../images/logo.png" class="img-fluid" alt="logo" 
             /></a>
           </div>
           <input type="checkbox" id="toggle" style="display:none;" />
@@ -16,14 +16,7 @@
             <span class="bar"></span>
           </label>
           <nav>
-            <ul>
-              <li><a href="#banner">Home</a></li>
-              <li><a href="about-us.html">About us</a></li>
-              <li><a href="our-gallery.html">Our Gallery</a></li>
-              <li><a href="our-instructor.html">our instructor</a></li>
-              <li><a href="404-page.html">404 page</a></li>
-              <li><a href="#contact">Contact us</a></li>
-            </ul>
+            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
           </nav>
         </div>
       </header>

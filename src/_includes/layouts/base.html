@@ -1,16 +1,18 @@
+{% set currentPage = ('home' if page.fileSlug === '' else 'default') %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     {% include "partials/meta-info.html" %}
-    <link rel="shortcut icon" type="image/png" href="images/Favicon.png">
+    <link rel="shortcut icon" type="image/png" href="../images/Favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="font/flaticon.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="../font/flaticon.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
 
   <body class="body-back" data-spy="scroll" data-target="#bs-example-navbar-collapse-1"></body>
@@ -20,43 +22,15 @@
     <!-- back to top end -->
     
     {% include "partials/navigation.html" %}
-
-    <!--=========================
-        Breadcrum Part HTML Start
-        =======================-->
-        <section id="breadcrun" class="breadcrun-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="bread-inner">
-                            <h1 class="heading-font">ABOUT US</h1>
-                            <ul class="breadcrumb">
-                                <li>
-                                    <a href="#">
-                                        <p>home</p>
-                                    </a>
-                                </li>
-                                <li><i class="fas fa-angle-right"></i></li>
-                                <li>
-                                    <p>About Us</p>
-                                </li>
-                            </ul>
-                            <div class="clr"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-    <!--====================
-        Breadcrum Part HTML End
-    ======================-->
-
     <main tabindex="-1" id="main-content">
-        {% block content %}{% endblock %}
-    </main>
+      {% include ('partials/page-banner.html' if currentPage == 'default' else 'partials/home-banner.html') %}
+    
+      {% block content %}
+      {{ content | safe }}
+      {% endblock %}
+  </main>
 
-    <!--=======================
+     <!--=======================
     contact Part HTML Start
     ========================-->
     <section id="contact" class="contact common">
@@ -68,10 +42,9 @@
                 <div class="col-md-6">
                   <div class="contact-txt">
                     <div class="cont-head">
-                      <h3 class="heading-font">Run An Extra Mile Easily</h3>
+                      <h3 class="heading-font">Contact Us</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt.
+                        
                       </p>
                     </div>
                   </div>
@@ -85,8 +58,8 @@
                         </div>
                         <div class="col-lg-10 col-md-9 col-9">
                           <ul class="location-txt">
-                            <li>support@omyoga.com</li>
-                            <li>info@omyoga.com</li>
+                            <li>&nbsp;</li>
+                            <li>info@allwalks.yoga</li>
                           </ul>
                         </div>
                       </div>
@@ -102,8 +75,8 @@
                         </div>
                         <div class="col-lg-10 col-md-9 col-9">
                           <ul class="location-txt">
-                            <li>0821-4545-98253</li>
-                            <li>0821-4545-98254</li>
+                            <li>&nbsp;</li>
+                            <li>(234) 738-2024‬</li>
                           </ul>
                         </div>
                       </div>
@@ -120,9 +93,8 @@
                         </div>
                         <div class="col-lg-10 col-md-9 col-9">
                           <ul class="location-txt">
-                            <li>972 Fairground St.</li>
-                            <li></li>
-                            <li>Brooklyn, NY 11223</li>
+                            <li>&nbsp;</li>
+                            <li>Akron, Ohio</li>
                           </ul>
                         </div>
                       </div>
@@ -210,6 +182,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

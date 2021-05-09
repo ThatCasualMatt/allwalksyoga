@@ -1,163 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    {% include "partials/meta-info.html" %}
-    <link rel="shortcut icon" type="image/png" href="images/Favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" href="font/flaticon.css" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
+{% extends "layouts/base.html" %}
 
-  <body class="body-back" data-spy="scroll" data-target="#bs-example-navbar-collapse-1"></body>
-  
-    <!-- back to top start -->
-    <a href="#" id="back-top-btn"><i class="fas fa-arrow-circle-up"></i></a> 
-    <!-- back to top end -->
-    
-    {% include "partials/navigation.html" %}
-    <main tabindex="-1" id="main-content">
-      {% block content %}
-    <!--=========================
-        Banner Part HTML Start
-        =======================-->
-    <article id="banner" class="banner">
+{% block content %}
+
+{% include "partials/cta.html" %}
+
+    <!--======================
+    About Us Part HTML Start
+    =======================-->
+
+    <section id="next-level" class="next-level">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 banner-l">
-            <div class="banner-text">
-              <h3>{{ intro.header }}</h3>
-              <h1 class="heading-font">{{ intro.subheader }}</h1>
-              <p>
-                {{ intro.cta }}
-              </p>
-              <div class="banner-btn">
-                <a href="{{ intro.buttonUrl }}">{{ intro.buttonText }}</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 banner-yoga d-md-block d-none">
-            <div class="banner-block">
-              <img
-                src="images/banner-shape.png" class="img-fluid" alt="banner"/>
+          <div class="col-lg-6 col-md-12">
+            <div class="next-block">
+              <img src="./images/about-us.png" class="img-fluid" alt="banner" />
               <div class="animation-circle-inverse left">
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="level-detail">
+              <h3>Welcome To OmYoga</h3>
+              <h1 class="heading-font">
+                Take your Yoga to the next level with us
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+              <div class="banner-btn">
+                <a href="#">Learn More</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </article>
-
-    <!--====================
-        Banner Part HTML End
-    ======================-->
-
-  <!--==================
-   Why choose us HTML Start
-   ===================-->
-
-    <article id="about" class="about common">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="section-head">
-              <h2 class="heading-font">{{ cta.Section }}</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row choose-slick">
-          <div class="col-md-4">
-            <div class="about-inner text-center">
-              <i class="flaticon-meditation"></i>
-              <h4 class="heading-font">{{ cta1.header }}</h4>
-              <p>
-                {{ cta1.text }}
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="about-inner text-center">
-              <i class="flaticon-workout"></i>
-              <h4 class="heading-font">{{ cta2.header }}</h4>
-              <p>
-                {{ cta2.text }}
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="about-inner text-center">
-              <i class="flaticon-icon-135439"></i>
-              <h4 class="heading-font">{{ cta3.header }}</h4>
-              <p>
-                {{ cta3.text }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <!--==================
-    Why choose us HTML End
-    ===============-->
-
-   {% endblock %}
-  </main>
+    </section>
 
     <!--=======================
-    contact Part HTML End
+    About Us Part HTML End
     ========================-->
-    <footer id="footer" class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-12">
-            <div class="footer-text">
-              <p>© Copyright {{ global.currentYear() }}. All rights reserved by All Walks Yoga, LLC.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-12">
-            <div class="footer-menu">
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com/allwalksyoga"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/allwalksyoga"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com/allwalksyoga"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/company/allwalksyoga"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <!--<li>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                </li>-->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--===========================
-        Footer Part HTML End
-    ============================-->
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-    <!-- Plugins -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+{% endblock %}
