@@ -10,8 +10,8 @@ intro:
   header: 'Welcome to'
   subheader: 'All Walks Yoga'
   cta: 'At All Walks Yoga we focus on accessible yoga to bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
-  buttonText: 'Join Us'
-  buttonUrl: '#'
+  buttonText: 'See Our Classes'
+  buttonUrl: './classes/'
 ctaSection: 'Why Choose Us?'
 cta1:
   header: 'Yoga for All'
@@ -23,3 +23,4 @@ cta3:
   header: 'Safe Space'
   text: 'We strive to be a safe welcoming space for all. This is YOUR studio to grow, heal, and learn.'
 ---
+***TEST***

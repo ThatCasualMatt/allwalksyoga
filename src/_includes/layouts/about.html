@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %} 
+    <!--======================
+    About Us Part HTML Start
+    =======================-->
+
+    <section id="next-level" class="next-level-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="next-block">
+                        <img src="../images/{{ about.image }}" class="img-fluid" alt="banner">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="level-detail cont-head">
+                        <h3 class=>{{ about.header }}</h3>
+                        <h2 class="heading-font">{{ about.subheader }}</h2>
+                        {{ content | safe }}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--=======================
+    About Us Part HTML End
+    ========================-->
+    {% include "partials/join-class.html" %}
+{% endblock %}

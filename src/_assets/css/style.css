@@ -936,14 +936,14 @@ Testimonial Part CSS End
     Join Class Part HTML Start
     ======================== */
 .join-cls {
-  background: #2a3740;
+  background: #74071e;
   padding: 60px 0;
   margin-top: 60px;
 }
 
 .join-text h3 {
   font-weight: 700;
-  color: #fff;
+  color: #e2b476;
   text-transform: capitalize;
   line-height: 24px;
   font-size: 32px;
@@ -1290,9 +1290,9 @@ Testimonial Part CSS End
                 Other's Page CSS Start
         ===============================================*/
 
-/*==============Breadcramb Part CSS Start==============*/
+/*==============Breadcrumb Part CSS Start==============*/
 
-.breadcrun-banner {
+.breadcrumb-banner {
   background: url(../images/breadcrumb.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -1300,7 +1300,7 @@ Testimonial Part CSS End
   z-index: 0;
 }
 
-.breadcrun-banner:after {
+.breadcrumb-banner:after {
   position: absolute;
   content: '';
   text-align: center;
@@ -1314,12 +1314,12 @@ Testimonial Part CSS End
 }
 
 .bread-inner {
-  padding: 180px 0 80px;
+  padding: 100px 0 80px;
 }
 
 .bread-inner h1 {
   font-weight: 900;
-  color: #fff;
+  color: #e2b476;
   font-size: 40px;
   letter-spacing: 2px;
   word-spacing: 1px;
@@ -1327,7 +1327,7 @@ Testimonial Part CSS End
   text-transform: uppercase;
 }
 
-.breadcrun-banner ul.breadcrumb {
+.breadcrumb-banner ul.breadcrumb {
   padding: 10px 0 3px;
   display: inline-flex;
   list-style: none;
@@ -1348,16 +1348,16 @@ Testimonial Part CSS End
   font-family: 'Rubik', sans-serif;
 }
 
-.breadcrun-banner ul.breadcrumb li a p {
+.breadcrumb-banner ul.breadcrumb li a p {
   color: #fff;
   padding-right: 10px;
 }
 
-.breadcrun-banner ul.breadcrumb li i {
+.breadcrumb-banner ul.breadcrumb li i {
   padding-right: 8px;
 }
 
-.breadcrun-banner ul.breadcrumb li p {
+.breadcrumb-banner ul.breadcrumb li p {
   display: inline;
   font-size: 18px;
   width: 650px;
@@ -1377,7 +1377,7 @@ Testimonial Part CSS End
 }
 
 .about-page {
-  background: rgba(240, 84, 86, 0.8);
+  background: rgba(116, 7, 30, 0.8);
 }
 
 .about-page h2 {
