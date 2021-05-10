@@ -2,7 +2,7 @@
   "name": "allwalksyoga",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
     "clean": "rimraf dist",
     "format": "prettier --write **/*.{js,s?css,yml} !dist",
@@ -14,6 +14,10 @@
     "build:eleventy": "eleventy",
     "analyze": "npm-run-all build analyze:*",
     "analyze:js": "source-map-explorer dist/**/*.js dist/**/*.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatCasualMatt/allwalksyoga.git"
   },
   "keywords": [],
   "author": "",
