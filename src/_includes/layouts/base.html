@@ -23,6 +23,7 @@
     
     {% include "partials/navigation.html" %}
     <main tabindex="-1" id="main-content">
+
       {% include ("partials/page-banner.html" if currentPage == 'default' else "partials/home-banner.html") %}
     
       {% block content %}
