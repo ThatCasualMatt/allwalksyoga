@@ -175,7 +175,7 @@ Version: 1
     word-spacing: 2px;
 }
     .banner{
-        background: #ff6e79;
+        background: #2a3740;
         min-height: 100vh;
     }
     .banner-l {
@@ -207,7 +207,7 @@ Version: 1
 }
     .next-level-page .row,
     .next-level .row{
-        webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;

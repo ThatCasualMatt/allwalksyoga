@@ -1,23 +1,14 @@
 <!--===================
     Navbar Part HTML Start
-    =====================-->
-<header class="nav_area">
-  <div class="container">
-    <div class="logo_container">
-      <a href="https://allwalks.yoga"
-        ><img src="../images/logo.png" class="img-fluid" alt="logo"
-      /></a>
-    </div>
-    <input type="checkbox" id="toggle" style="display: none" />
-    <label class="toggle-btn toggle-btn__cross" for="toggle">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </label>
-    <nav>
-      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe
-      }}
+    =====================-->   
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <a href="../index.html"><img src="../images/logo.png" class="img-fluid" alt="logo"></a>
+      </a>
+      <button class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          {{ collections.all | eleventyNavigation | bootstrapNav({listClass: "navbar-nav ml-auto mt-2 mt-lg-0", listChildItemClass: "dropdown-menu dropdown-menu-right", activeKey: eleventyNavigation.key}) | safe }}
+      </div>
     </nav>
-  </div>
-</header>

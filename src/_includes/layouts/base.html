@@ -1,5 +1,3 @@
-{% set currentPage = ('home' if page.fileSlug === '' else 'default') %}
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,16 +13,11 @@
     <link rel="stylesheet" href="../css/main.css" />
   </head>
 
-  <body class="body-back" data-spy="scroll" data-target="#bs-example-navbar-collapse-1"></body>
-  
-    <!-- back to top start -->
-    <a href="#" id="back-top-btn"><i class="fas fa-arrow-circle-up"></i></a> 
-    <!-- back to top end -->
-    
+  <body>
     {% include "partials/navigation.html" %}
     <main tabindex="-1" id="main-content">
 
-      {% include ("partials/page-banner.html" if currentPage == 'default' else "partials/home-banner.html") %}
+      {% include ("partials/home-banner.html" if layout === 'layouts/home.html' else "partials/page-banner.html") %}
     
       {% block content %}
       {{ content | safe }}

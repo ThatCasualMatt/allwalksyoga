@@ -1,51 +1,6 @@
 $(function () {
   'use strict';
 
-  $('body').scrollspy({
-    target: '#bs-example-navbar-collapse-1'
-  });
-  // for navbar background color when scrolling
-  $(window).scroll(function () {
-    var $scrolling = $(this).scrollTop();
-    var bc2top = $('#back-top-btn');
-    var stickytop = $('.nav_area');
-    if ($scrolling >= 10) {
-      stickytop.addClass('navcss');
-    } else {
-      stickytop.removeClass('navcss');
-    }
-
-    if ($scrolling > 150) {
-      bc2top.fadeIn(2000);
-    } else {
-      bc2top.fadeOut(2000);
-    }
-  });
-
-  // this is for back to top js
-  var bc2top = $('#back-top-btn');
-  bc2top.on('click', function () {
-    html_body.animate(
-      {
-        scrollTop: 0
-      },
-      1500
-    );
-  });
-
-  //==================Sticky Menu Start==================
-
-  $(window).on('scroll', function () {
-    var scrolling = $(this).scrollTop();
-    if (scrolling >= 250) {
-      $('.navbar').addClass('sticky');
-    } else {
-      $('.navbar').removeClass('sticky');
-    }
-  });
-
-  //==================Sticky Menu Part End==================
-
   // ================== Testimonials JS Slick ==================
   $('.testimonial-slick').slick({
     infinite: true,
@@ -73,10 +28,10 @@ $(function () {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     dots: false,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 991,
