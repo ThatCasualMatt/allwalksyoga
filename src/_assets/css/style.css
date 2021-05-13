@@ -105,17 +105,17 @@ body {
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #9f0625;
+  color: #e2b476;
 }
 .navbar .navbar-text {
   color: #e2b476;
 }
 .navbar .navbar-text a {
-  color: #9f0625;
+  color: #e2b476;
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
-  color: #9f0625; 
+  color: #e2b476; 
 }
 .navbar .navbar-nav .nav-link {
   color: #e2b476;
@@ -124,7 +124,23 @@ body {
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #9f0625;
+  color: #e2b476;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #2a3740;
+  border-color: #9f0625;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #e2b476;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #e2b476;
+  background-color: #9f0625;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #9f0625;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -132,15 +148,15 @@ body {
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #9f0625;
-  background-color: #e2b476;
+  color: #e2b476;
+  background-color: #9f0625;
 }
 .navbar .navbar-toggler {
-  border-color: #e2b476;
+  border-color: #9f0625;
 }
 .navbar .navbar-toggler:hover,
 .navbar .navbar-toggler:focus {
-  background-color: #e2b476;
+  background-color: #9f0625;
 }
 .navbar .navbar-toggler .navbar-toggler-icon {
   color: #e2b476;
@@ -153,7 +169,7 @@ body {
   color: #e2b476;
 }
 .navbar .navbar-link:hover {
-  color: #9f0625;
+  color: #e2b476;
 }
 
 @media (max-width: 575px) {
@@ -162,11 +178,11 @@ body {
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #9f0625;
+    color: #e2b476;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #9f0625;
-    background-color: #e2b476;
+    color: #e2b476;
+    background-color: #9f0625;
   }
 }
 
@@ -176,11 +192,11 @@ body {
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #9f0625;
+    color: #e2b476;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #9f0625;
-    background-color: #e2b476;
+    color: #e2b476;
+    background-color: #9f0625;
   }
 }
 
@@ -190,11 +206,11 @@ body {
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #9f0625;
+    color: #e2b476;
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #9f0625;
-    background-color: #e2b476;
+    color: #e2b476;
+    background-color: #9f0625;
   }
 }
 
@@ -204,11 +220,11 @@ body {
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #9f0625;
+    color: #e2b476;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #9f0625;
-    background-color: #e2b476;
+    color: #e2b476;
+    background-color: #9f0625;
   }
 }
 
@@ -217,13 +233,12 @@ body {
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #9f0625;
+  color: #e2b476;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #9f0625;
-  background-color: #e2b476;
+  color: #e2b476;
+  background-color: #9f0625;
 }
-
 /* =============Navbar Part CSS End============= */
 
 /* ===============Banner Part CSS Start=========== */
@@ -333,7 +348,7 @@ body {
 }
 
 .banner-block .animation-circle-inverse.left {
-  top: 400px;
+  top: 300px;
   left: 36%;
 }
 
@@ -1319,7 +1334,7 @@ Testimonial Part CSS End
 }
 
 .about-page h2 {
-  color: #fff;
+  color: #e2b476;
 }
 
 .next-level-page .level-detail h3 {
@@ -1368,22 +1383,13 @@ Testimonial Part CSS End
 /* ====================================
    404 Part HTML Start
 ===================================== */
-.header-color {
-  background: #2a3740;
-  height: 100px;
-  width: 100%;
-  position: fixed;
-  padding-top: 8px;
-  z-index: 999;
-}
-
-.error-page {
+.general-page {
   position: relative;
   padding-bottom: 80px;
   /*    height: 100vh;*/
 }
 
-.error-text h2 {
+.general-text h2 {
   font-size: 400px;
   font-weight: 900;
   line-height: 24px;
@@ -1395,12 +1401,12 @@ Testimonial Part CSS End
   margin-left: -80px;
 }
 
-.error-page img {
+.general-page img {
   padding-top: 190px;
   animation: scal 3s linear infinite;
 }
 
-.error-btm-txt h3 {
+.general-btm-txt h3 {
   font-size: 40px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -1410,7 +1416,7 @@ Testimonial Part CSS End
   padding: 40px 0 35px;
 }
 
-.error-btm-txt p {
+.general-btm-txt p {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -1420,7 +1426,7 @@ Testimonial Part CSS End
   font-family: 'Rubik', sans-serif;
 }
 
-.error-footer {
+.general-footer {
   padding-top: 20px;
   margin-top: 0px;
   padding-bottom: 20px;

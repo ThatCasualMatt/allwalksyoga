@@ -9,7 +9,7 @@ metaDesc: 'Located in Akron, Ohio, at All Walks Yoga we focus on accessible yoga
 intro:
   header: 'Welcome to'
   subheader: 'All Walks Yoga'
-  cta: 'At All Walks Yoga we focus on accessible yoga to bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
+  cta: 'Located in Kenmore, Ohio, we are bringing accessible Yoga to the Boulevard and surrounding area. Our focus on accessible yoga aims bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
   buttonText: 'See Our Classes'
   buttonUrl: './classes/'
 ctaSection: 'Why Choose Us?'
