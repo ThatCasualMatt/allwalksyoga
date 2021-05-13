@@ -306,7 +306,7 @@ body {
   vertical-align: top;
   text-align: center;
   line-height: 22px;
-  color: #ffffff;
+  color: #74071e;
   font-weight: 400;
   font-family: 'Rubik', sans-serif;
   padding: 13px 32px;
@@ -319,12 +319,12 @@ body {
 }
 
 .banner-btn a:hover {
-  background: #ffffff;
+  background: #74071e;
   color: #e2b476;
-  box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
-  -webkit-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
-  -moz-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
-  -o-box-shadow: 0px 13px 20px 0px rgba(226, 180, 118, 0.5);
+  box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -webkit-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -moz-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -o-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
   transition: all linear 0.6s;
   -webkit-transition: all linear 0.6s;
   -moz-transition: all linear 0.6s;
@@ -1150,18 +1150,17 @@ Testimonial Part CSS End
   padding: 8px 40px;
   text-transform: capitalize;
   background: #e2b476;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #74071e;
   border-radius: 25px;
 }
 
 .contact-form .btn:hover {
-  background: #ffffff;
+  background: #74071e;
   color: #e2b476;
-  box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
-  -webkit-box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
-  -moz-box-shadow: 0px 83px 30px 0px rgba(226, 180, 118, 0.3);
-  -o-box-shadow: 0px 8px 30px 0px rgba(226, 180, 118, 0.3);
+  box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -webkit-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -moz-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
+  -o-box-shadow: 0px 13px 20px 0px rgba(116, 7, 30, 0.5);
   transition: all linear 0.6s;
   -webkit-transition: all linear 0.6s;
   -moz-transition: all linear 0.6s;
@@ -1469,58 +1468,6 @@ Testimonial Part CSS End
 /* ====================================
    404 Part HTML End
 ===================================== */
-/* === BACK TO TOP CSS == */
-
-#back-top-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #74071e;
-  color: #fff;
-  width: 55px;
-  line-height: 55px;
-  height: 55px;
-  display: block;
-  text-decoration: none;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 0px 8px 40px 0px rgba(240, 84, 86, 0.4);
-  -webkit-box-shadow: 0px 8px 40px 0px rgba(240, 84, 86, 0.4);
-  -moz-box-shadow: 0px 8px 40px 0px rgba(240, 84, 86, 0.4);
-  -o-box-shadow: 0px 8px 40px 0px rgba(240, 84, 86, 0.4);
-  display: none;
-  z-index: 999;
-  animation: jump 3s linear infinite;
-}
-
-#back-top-btn i {
-  margin: 0;
-  position: relative;
-  left: 13px;
-  top: 5px;
-  font-size: 30px;
-  -webkit-transition: all ease 0.6s;
-  -moz-transition: all ease 0.6s;
-  -o-transition: all ease 0.6s;
-  transition: all ease 0.6s;
-}
-
-#back-top-btn:hover i {
-  color: #74071e;
-}
-
-#back-top-btn:hover {
-  background: #fff;
-  -webkit-transition: ease all 0.4s;
-  -moz-transition: ease all 0.4s;
-  -o-transition: ease all 0.4s;
-  transition: ease all 0.4s;
-  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
-}
 
 /* ==========  Animation ================*/
 
@@ -1612,24 +1559,5 @@ Testimonial Part CSS End
   100% {
     -webkit-transform: scale(3.5);
     transform: scale(3.5);
-  }
-}
-
-/* =========== Jump ========== */
-@keyframes jump {
-  20% {
-    margin-top: 10px;
-  }
-
-  30% {
-    margin-bottom: 30px;
-  }
-
-  60% {
-    margin-bottom: 0px;
-  }
-
-  100% {
-    margin-top: 0px;
   }
 }
