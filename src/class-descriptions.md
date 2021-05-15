@@ -1,10 +1,11 @@
 ---
-layout: 'layouts/class-schedule.html'
+layout: 'layouts/base.html'
 eleventyNavigation:
-  key: classes
+  key: class-descriptions
+  parent: classes
   title: Classes
-  order: 3
-  doorpageLabel: Class Schedule
+  order: 1
+  doorpageLabel: 
 title: 'Classes'
 metaDesc: 'Located in Akron, Ohio, at All Walks Yoga we focus on accessible yoga to bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
 ctaSection: 'Why Choose Us?'
@@ -18,4 +19,6 @@ cta3:
   header: 'Safe Space'
   text: 'We strive to be a safe welcoming space for all. This is YOUR studio to grow, heal, and learn.'
 ---
-# Upcoming Class Schedule
+# Heading
+## Sub Heading
+***stuff***
