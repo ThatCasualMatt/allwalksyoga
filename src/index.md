@@ -15,7 +15,7 @@ intro:
 ctaSection: 'Why Choose Us?'
 cta1:
   header: 'Yoga for All'
-  text: 'Truly accessible classes and instructors that that guide you at your level.'
+  text: 'Accessible classes and instructors that that guide you at your level regardless of experience.'
 cta2:
   header: 'More Than Physical Poses'
   text: 'There are eight limbs of Yoga. We focus on more than just the physical aspect.'

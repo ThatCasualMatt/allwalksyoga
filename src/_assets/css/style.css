@@ -1245,11 +1245,18 @@ Testimonial Part CSS End
 /*==============Breadcrumb Part CSS Start==============*/
 
 .breadcrumb-banner {
-  background: url(../images/breadcrumb.png) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 0;
+}
+
+.breadcrumb-banner-classes, .breadcrumb-banner-policies {
+  background: url(../images/breadcrumb.png) no-repeat;
+}
+
+.breadcrumb-banner-about {
+  background: url(../images/breadcrumb-about.png) no-repeat !important;
 }
 
 .breadcrumb-banner:after {
@@ -1266,7 +1273,7 @@ Testimonial Part CSS End
 }
 
 .bread-inner {
-  padding: 100px 0 80px;
+  padding: 180px 0 80px;
 }
 
 .bread-inner h1 {
