@@ -1,5 +1,7 @@
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const toBootstrapNav = require('eleventy-navigation-bootstrap');
+const htmlmin = require("html-minifier");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -15,6 +17,27 @@ module.exports = function (eleventyConfig) {
         else return 0;
       });
   });
+
+  //Run things in production
+  if (process.env.NODE_ENV === "production") {
+    //Purge unused CSS from the files.
+    eleventyConfig.addPlugin(purgeCssPlugin);
+
+    //Minify the HTML!
+    eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
+      if (outputPath.endsWith('.html')) {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true,
+        });
+        return minified;
+      }
+      return content;
+    });
+  };
+
+
 
   return {
     markdownTemplateEngine: 'njk',

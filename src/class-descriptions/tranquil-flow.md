@@ -4,6 +4,6 @@ summary: 'We will begin slow, warming up the body with intentional movement. The
 time: 'This class is generally offered on Sunday morning from 9:00AM to 10:00AM at The Rialto Theater.'
 hero:
   image: '../images/class-desc/tranquil-flow.jpg'
-  alt: 'Alt Text'
+  alt: 'Tranquil Flow Yoga by All Walks Yoga'
 eleventyExcludeFromCollections: false
 ---

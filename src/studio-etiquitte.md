@@ -1,14 +1,15 @@
 ---
 layout: 'layouts/policies.html'
 eleventyNavigation:
-  key: studio-etiquitte
+  key: studio-etiquette
   parent: classes
-  title: Studio Etiquitte
+  title: Studio Etiquette
   order: 2
-title: 'Studio Etiquitte'
+title: 'Studio Etiquette'
+metaDesc: 'New to Yoga with All Walks Yoga? We offer our tips and etiquette advice for joining us at our classes in Akron, Ohio. We focus on accessible yoga to bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
 ---
 
-## STUDIO ETIQUITTE
+## STUDIO ETIQUETTE
 
 At All Walks Yoga we want everyone to feel accepted and welcomed in our classes. We've compiled a brief list of tips and expectations to help you make the most out of your time in our classes.
 

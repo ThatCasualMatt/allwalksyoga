@@ -5,4 +5,5 @@ eleventyNavigation:
   title: Pricing
   order: 4
 title: 'Pricing'
+metaDesc: 'Located in Akron, Ohio, at All Walks Yoga offers affordable pricing on accessible yoga to bring everyone together regardless of race, gender, sexual orientation, body type, body ability, or fitness level. No matter where you are in your walk of life, all are welcome, together.'
 ---
