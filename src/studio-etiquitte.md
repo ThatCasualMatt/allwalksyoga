@@ -12,7 +12,7 @@ title: 'Studio Etiquitte'
 
 At All Walks Yoga we want everyone to feel accepted and welcomed in our classes. We've compiled a brief list of tips and expectations to help you make the most out of your time in our classes.
 
-We encourage your to arrive 10 to 15 minutes early to class. This will give you sufficient time to find parking, check in for class, and find your spot on the floor so you can start to relax before we get started.
+We encourage you to arrive 10 to 15 minutes early to class. This will give you sufficient time to find parking, check in for class, and find your spot on the floor so you can start to relax before we get started.
 
 You will need a mat, towel and water bottle. We also recommend Yoga blocks to help with balance. However, we understand that not everyone may have these items, especially if you are new to Yoga, and we do have a few mats, towels, and block available for rent, but most people prefer to bring their own.
 

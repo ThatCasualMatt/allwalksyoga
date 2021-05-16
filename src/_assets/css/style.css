@@ -1261,6 +1261,10 @@ Testimonial Part CSS End
   background: url(../images/breadcrumb-about.jpg) no-repeat !important;
 }
 
+.breadcrumb-banner-pricing {
+  background: url(../images/breadcrumb-pricing.jpg) no-repeat;
+}
+
 .breadcrumb-banner:after {
   position: absolute;
   content: '';
@@ -1338,7 +1342,7 @@ Testimonial Part CSS End
 }
 
 .about-page {
-  background: rgba(116, 7, 30, 0.8);
+  background: #74071e;
 }
 
 .about-page h2 {

@@ -10,7 +10,7 @@ title: 'Studio Policies'
 
 ## STUDIO POLICIES
 
-**Waivers** - Every person who practices in our studio must sign a waiver, before they take class. No exceptions. No waiver, no practice.
+**Waivers** - Every person who practices in our studio must sign a waiver before they take a class. No exceptions. No waiver, no practice.
 
 **Disclaimer** - Schedules, teachers and prices of classes, passes, memberships and/or products are subject to change without notice. Please always check our website for our most current offers.
 
