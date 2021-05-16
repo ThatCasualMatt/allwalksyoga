@@ -1,20 +1,12 @@
-{% extends "layouts/base.html" %}
-
-{% block content %}
+{% extends "layouts/base.html" %} {% block content %}
 <section id="next-level" class="next-level-page">
-<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <div class="level-detail">
-
-          {{ content | safe }}
-
-        </div>
+        <div class="level-detail">{{ content | safe }}</div>
       </div>
-    </div>  
-</div>
+    </div>
+  </div>
 </section>
 
-{% include "partials/join-class.html" %}
-
-{% endblock %}
+{% include "partials/join-class.html" %} {% endblock %}

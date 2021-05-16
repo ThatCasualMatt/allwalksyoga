@@ -115,11 +115,11 @@ body {
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
-  color: #e2b476; 
+  color: #e2b476;
 }
 .navbar .navbar-nav .nav-link {
   color: #e2b476;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin: 0 0.25em;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
@@ -1251,11 +1251,13 @@ Testimonial Part CSS End
   z-index: 0;
 }
 
-.breadcrumb-banner-class-schedule, .breadcrumb-banner-classes {
+.breadcrumb-banner-class-schedule,
+.breadcrumb-banner-classes {
   background: url(../images/breadcrumb.jpg) no-repeat;
 }
 
-.breadcrumb-banner-about, .breadcrumb-banner-contact {
+.breadcrumb-banner-about,
+.breadcrumb-banner-contact {
   background: url(../images/breadcrumb-about.jpg) no-repeat !important;
 }
 
@@ -1438,7 +1440,7 @@ Testimonial Part CSS End
   text-transform: capitalize;
   line-height: 24px;
   padding: 0 80px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .error-footer {
@@ -1446,7 +1448,6 @@ Testimonial Part CSS End
   margin-top: 0px;
   padding-bottom: 20px;
 }
-
 
 @-webkit-keyframes scal {
   0% {

@@ -17,4 +17,3 @@ cta3:
   header: 'Safe Space'
   text: 'We strive to be a safe welcoming space for all. This is YOUR studio to grow, heal, and learn.'
 ---
-
