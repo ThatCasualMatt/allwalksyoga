@@ -1,7 +1,7 @@
     <!--=========================
         Breadcrumb Part HTML Start
         =======================-->
-        <section id="breadcrumb" class="breadcrumb-banner breadcrumb-banner-{{page.fileSlug}}">
+        <section id="breadcrumb" class="breadcrumb-banner breadcrumb-banner-{% if eleventyNavigation.parent %}{{eleventyNavigation.parent}}{% else %}{{page.fileSlug}}{% endif %}">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -13,6 +13,17 @@
                                         <p>Home</p>
                                     </a>
                                 </li>
+                                {% if eleventyNavigation.parent %}
+                                {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+                                {%- for entry in navPages %}
+                                    <li>
+                                        <i class="fas fa-angle-right"></i>
+                                    </li>
+                                    <li>
+                                        <a href="{{ entry.url | url }}"><p>{{ entry.title }}</p></a>
+                                    </li>
+                                {%- endfor %}
+                                {% endif %}
                                 <li><i class="fas fa-angle-right"></i></li>
                                 <li>
                                     <p>{{title}}</p>
@@ -24,7 +35,6 @@
                 </div>
             </div>
         </section>
-    
         <!--====================
             Breadcrumb Part HTML End
         ======================-->

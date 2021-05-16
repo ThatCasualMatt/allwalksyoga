@@ -1251,12 +1251,12 @@ Testimonial Part CSS End
   z-index: 0;
 }
 
-.breadcrumb-banner-classes, .breadcrumb-banner-policies {
-  background: url(../images/breadcrumb.png) no-repeat;
+.breadcrumb-banner-class-schedule, .breadcrumb-banner-classes {
+  background: url(../images/breadcrumb.jpg) no-repeat;
 }
 
-.breadcrumb-banner-about {
-  background: url(../images/breadcrumb-about.png) no-repeat !important;
+.breadcrumb-banner-about, .breadcrumb-banner-contact {
+  background: url(../images/breadcrumb-about.jpg) no-repeat !important;
 }
 
 .breadcrumb-banner:after {
@@ -1577,4 +1577,8 @@ Testimonial Part CSS End
     -webkit-transform: scale(3.5);
     transform: scale(3.5);
   }
+}
+
+.class-descriptions_item:nth-child(odd) {
+  flex-direction: row-reverse;
 }

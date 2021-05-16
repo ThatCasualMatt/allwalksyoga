@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<section id="next-level" class="next-level-page">
+<div class="container">
+    <div class="row">
+        <div class="level-detail">
+          {% for item in collections.classDesc %}
+          <div class="row class-descriptions_item">
+            <div class="col-md-6">
+              <div class="level-detail cont-head">
+                <h1 class="heading-font">{{ item.data.title }}</h1>
+                <p>{{ item.data.summary }}</p>
+                <p>{{ item.data.time }}</p>
+                <div class="banner-btn text-center">
+                  <a href="../class-schedule/">View Class Schedule</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-thumbnail rounded" src="{{ item.data.hero.image }}" alt="{{ item.data.hero.alt }}">
+            </div>
+        </div>
+          {% endfor %}
+      </div>
+    </div>  
+</div>
+</section>
+
+{% include "partials/cta.html" %}
+
+{% endblock %}
