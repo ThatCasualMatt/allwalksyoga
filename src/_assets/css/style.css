@@ -832,7 +832,7 @@ Testimonial Part CSS Start
 }
 
 .slick-slide img {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .slidNext {
