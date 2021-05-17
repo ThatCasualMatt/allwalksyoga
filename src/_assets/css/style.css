@@ -1,4 +1,4 @@
-/* 
+/*
 ------------------
 Template Name: OMYOGA - OMYOGA - Yoga Fitness HTML5 Template
 Author: Ingenious_team
@@ -8,12 +8,12 @@ Version: 1
 ----------------
 Table of Content
 ----------------
-        1. Navbar Part 
+        1. Navbar Part
         2. banner part
         3. Why Choose Us part
         4. Next Level part
         5. Our Gallery part
-        6. Our Instructor part 
+        6. Our Instructor part
         7. Our Clients Say part
         8. Our Pricing Plan part
         9. Our Free Class part
@@ -24,8 +24,8 @@ Other pages:
         12. Our Gallery page
         13. Our Instructor page
         14. 404 page
-      
-    
+
+
 */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,900|Rubik:400,500,700');
 
@@ -380,7 +380,7 @@ body {
      Banner Part CSS End
 ================================*/
 
-/*================= 
+/*=================
   Why choose us Part CSS Start
 ================*/
 
@@ -571,11 +571,11 @@ body {
 }
 
 /* =====================================
- About Us end 
+ About Us end
 ======================================= */
 /*============About Part CSS End==============*/
 
-/*================= 
+/*=================
   Our Gallery Part CSS Start
 ================*/
 .gellary-over {
@@ -656,7 +656,7 @@ body {
   border-bottom-right-radius: 30px;
 }
 
-/*======================= 
+/*=======================
 Our Gallery CSS End
 =========================*/
 
