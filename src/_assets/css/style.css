@@ -831,10 +831,6 @@ Testimonial Part CSS Start
   letter-spacing: 1px;
 }
 
-.slick-slide img {
-  display: inline-block !important;
-}
-
 .slidNext {
   position: absolute;
   top: 50%;
