@@ -37,6 +37,8 @@ module.exports = function (eleventyConfig) {
     });
   }
 
+  eleventyConfig.addPassthroughCopy('src/_redirects');
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
