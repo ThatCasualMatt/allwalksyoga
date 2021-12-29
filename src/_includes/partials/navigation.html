@@ -1,14 +1,28 @@
 <!--===================
     Navbar Part HTML Start
-    =====================-->   
-    <nav class="navbar sticky-top navbar-expand-lg" aria-label="Main Navigation">
-      <a class="navbar-brand" href="../index.html" name="All Walks Yoga">
-        <img src="../images/logo.png" class="img-fluid" alt="logo">
-      </a>
-      <button class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" role="navigation">
-          {{ collections.all | eleventyNavigation | bootstrapNav({listClass: "navbar-nav ml-auto mt-2 mt-lg-0", listChildItemClass: "dropdown-menu dropdown-menu-right", listDoorpageDivider: ""}) | safe }}
-      </div>
-    </nav>
+    =====================-->
+<nav class="navbar sticky-top navbar-expand-lg" aria-label="Main Navigation">
+  <a class="navbar-brand" href="../index.html" name="All Walks Yoga">
+    <img src="../images/logo.png" class="img-fluid" alt="logo" />
+  </a>
+  <button
+    class="navbar-dark navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse"
+    id="navbarNavDropdown"
+    role="navigation"
+  >
+    {{ collections.all | eleventyNavigation | bootstrapNav({listClass:
+    "navbar-nav ml-auto mt-2 mt-lg-0", listChildItemClass: "dropdown-menu
+    dropdown-menu-right", listDoorpageDivider: ""}) | safe }}
+  </div>
+</nav>
