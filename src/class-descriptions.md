@@ -2,10 +2,9 @@
 layout: 'layouts/class-descriptions.html'
 eleventyNavigation:
   key: class-descriptions
-  parent: classes
+  parent: yoga
   title: Class Descriptions
-  order: 1
-  doorpageLabel:
+  order: 2
 title: 'Class Descriptions'
 metaDesc:
   'Class descriptions are provided for each type of class offered at All Walks

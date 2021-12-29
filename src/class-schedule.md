@@ -1,8 +1,8 @@
 ---
 layout: 'layouts/class-schedule.html'
 eleventyNavigation:
-  key: classes
-  title: Classes
+  key: yoga
+  title: Yoga
   order: 3
   doorpageLabel: Class Schedule
 title: 'Upcoming Class Schedule'

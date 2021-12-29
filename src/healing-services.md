@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/base.html'
 eleventyNavigation:
-  key: contact
-  title: Contact
-  order: 6
-title: 'Contact Us'
+  key: Healing Services
+  title: Healing Services
+  order: 4
+title: 'Healing Services'
 metaDesc:
   'Contact All Walks Yoga today to join us in one of our accessible classes or
   to discuss a new partnership. All Walks Yoga focuses on accessible yoga to

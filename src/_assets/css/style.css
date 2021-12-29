@@ -99,6 +99,7 @@ body {
 /*===============Navbar Part CSS Start===============*/
 .navbar {
   background-color: #2a3740;
+  text-transform: uppercase;
 }
 .navbar .navbar-brand {
   color: #e2b476;

@@ -2,9 +2,9 @@
 layout: 'layouts/policies.html'
 eleventyNavigation:
   key: studio-policies
-  parent: classes
+  parent: yoga
   title: Studio Policies
-  order: 3
+  order: 4
 title: 'Studio Policies'
 ---
 

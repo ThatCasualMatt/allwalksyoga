@@ -2,9 +2,9 @@
 layout: 'layouts/policies.html'
 eleventyNavigation:
   key: studio-etiquette
-  parent: classes
+  parent: yoga
   title: Studio Etiquette
-  order: 2
+  order: 3
 title: 'Studio Etiquette'
 metaDesc:
   'New to Yoga with All Walks Yoga? We offer our tips and etiquette advice for
