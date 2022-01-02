@@ -554,7 +554,7 @@ body {
 }
 
 .level-detail h1 {
-  padding: 30px 0 20px;
+  padding: 0 0 20px;
   line-height: 44px;
   font-size: 32px;
   letter-spacing: 2px;
@@ -1249,7 +1249,7 @@ Testimonial Part CSS End
 }
 
 .breadcrumb-banner-class-schedule,
-.breadcrumb-banner-classes {
+.breadcrumb-banner-yoga {
   background: url(../images/breadcrumb.jpg) no-repeat;
 }
 
@@ -1335,6 +1335,7 @@ Testimonial Part CSS End
 /* ============== About Page ====================== */
 .next-level-page {
   padding-bottom: 60px;
+  padding-top: 100px;
 }
 
 .about-page {
@@ -1582,4 +1583,8 @@ Testimonial Part CSS End
 
 .class-descriptions_item:nth-child(odd) {
   flex-direction: row-reverse;
+}
+
+.class-descriptions_item {
+  padding-bottom: 15px;
 }

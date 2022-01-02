@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/base.html'
 eleventyNavigation:
-  key: Healing Services
+  key: healing-services
   title: Healing Services
   order: 4
 title: 'Healing Services'
