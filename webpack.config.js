@@ -17,7 +17,7 @@ module.exports = {
   performance: { hints: isDev ? false : 'warning' },
   // Eval does not work for css source maps
   // `All values enable source map generation except eval and false value.`
-  // https://github.com/webpack-contrib/css-loader
+  // https://github.com/webpack-con~b/css-loader
   devtool: isDev ? 'cheap-module-source-map' : 'source-map',
   entry: [
     path.resolve(__dirname, 'src/_assets/js/custom.js'),
