@@ -11,7 +11,13 @@
               <p>{{ item.data.summary }}</p>
               <p>{{ item.data.time }}</p>
               <div class="banner-btn text-center">
-                <a href="../class-schedule/">View Class Schedule</a>
+                {% if 'class' in item.data.button %}<a href="../class-schedule/"
+                  >View Class Schedule</a
+                >{% endif %} {% if 'service' in item.data.button %}<a
+                  href="https://www.vagaro.com/allwalksyoga/services"
+                  target="_blank"
+                  >Book Online Now</a
+                >{% endif %}
               </div>
             </div>
           </div>
