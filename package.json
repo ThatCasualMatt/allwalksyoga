@@ -20,8 +20,10 @@
     "url": "git+https://github.com/ThatCasualMatt/allwalksyoga.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Hirschfelt",
+  "email": "matt@allwalks.yoga",
+  "url": "https://www.matthirschfelt.com",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.2.0",

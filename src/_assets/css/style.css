@@ -1262,6 +1262,10 @@ Testimonial Part CSS End
   background: url(../images/breadcrumb-pricing.jpg) no-repeat;
 }
 
+.breadcrumb-banner-reiki {
+  background: url(../images/breadcrumb-reiki.jpg) no-repeat;
+}
+
 .breadcrumb-banner:after {
   position: absolute;
   content: '';

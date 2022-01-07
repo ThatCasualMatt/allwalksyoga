@@ -12,7 +12,7 @@ metaDesc:
   type, body ability, or fitness level. No matter where you are in your walk of
   life, all are welcome, together.'
 about:
-  image: 'about-melissa.jpg'
+  image: 'about-reiki.jpg'
   header: 'Learn about'
   subheader: 'Melissa and All Walks Yoga'
 ---
