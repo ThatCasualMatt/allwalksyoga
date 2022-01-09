@@ -5,6 +5,7 @@ time: 'Sessions can be booked in 30 or 60 minute increments. Private sessions ca
 button: 'service'
 hero:
   image: '../images/class-desc/private-yoga.jpg'
-  alt: 'EveryBody Flow Yoga by All Walks Yoga'
+  alt: 'Private Yoga Sessions by All Walks Yoga'
 eleventyExcludeFromCollections: false
+order: 1
 ---

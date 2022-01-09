@@ -4,7 +4,7 @@ eleventyNavigation:
   key: studio-policies
   parent: yoga
   title: Studio Policies
-  order: 4
+  order: 5
 title: 'Studio Policies'
 ---
 

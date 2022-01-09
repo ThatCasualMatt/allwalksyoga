@@ -2,8 +2,9 @@
 layout: 'layouts/pricing.html'
 eleventyNavigation:
   key: pricing
+  parent: yoga
   title: Pricing
-  order: 5
+  order: 3
 title: 'Pricing'
 metaDesc:
   'Located in Akron, Ohio, at All Walks Yoga offers affordable pricing on

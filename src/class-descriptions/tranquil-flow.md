@@ -9,4 +9,5 @@ hero:
   image: '../images/class-desc/tranquil-flow.jpg'
   alt: 'Tranquil Flow Yoga by All Walks Yoga'
 eleventyExcludeFromCollections: false
+order: 4
 ---

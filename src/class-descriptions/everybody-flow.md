@@ -9,4 +9,5 @@ hero:
   image: '../images/class-desc/everybody-flow.jpg'
   alt: 'EveryBody Flow Yoga by All Walks Yoga'
 eleventyExcludeFromCollections: false
+order: 3
 ---

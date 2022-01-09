@@ -4,7 +4,7 @@ eleventyNavigation:
   key: studio-etiquette
   parent: yoga
   title: Studio Etiquette
-  order: 3
+  order: 4
 title: 'Studio Etiquette'
 metaDesc:
   'New to Yoga with All Walks Yoga? We offer our tips and etiquette advice for
